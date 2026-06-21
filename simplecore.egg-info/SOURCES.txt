@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+simplecore.egg-info/PKG-INFO
+simplecore.egg-info/SOURCES.txt
+simplecore.egg-info/dependency_links.txt
+simplecore.egg-info/top_level.txt

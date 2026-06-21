@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: simplecore
+Version: 0.0.1
+Summary: Легковесная утилитарная библиотека для Python
+Home-page: https://github.com/mreliseyyt/simplecore
+Author: mreliseyyt
+Author-email: mreliseyyt <mail@mreliseyyt.ru>
+License: MIT
+Project-URL: Homepage, https://github.com/mreliseyyt/simplecore
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
+
+# SimpleCore
+
+Легковесная утилитарная библиотека для Python-разработчиков.
+
+## Установка
+
+```bash
+pip install simplecore
