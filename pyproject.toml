@@ -1,0 +1,17 @@
+
+[project]
+name = "simplecore"
+version = "0.0.1"
+description = "Легковесная утилитарная библиотека для Python"
+readme = "README.md"
+authors = [{name = "mreliseyyt", email = "mail@mreliseyyt.ru"}]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+requires-python = ">=3.6"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/mreliseyyt/simplecore"
