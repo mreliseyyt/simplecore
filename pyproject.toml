@@ -20,4 +20,4 @@ requires-python = ">=3.6"
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/mreliseyyt/simplecore"
+Homepage = "https://github.com/mreliseyyt/pysimplecore"
