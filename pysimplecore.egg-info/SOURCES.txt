@@ -1,9 +1,0 @@
-README.md
-pyproject.toml
-setup.py
-pysimplecore.egg-info/PKG-INFO
-pysimplecore.egg-info/SOURCES.txt
-pysimplecore.egg-info/dependency_links.txt
-pysimplecore.egg-info/top_level.txt
-tests/test_basic.py
-tests/test_import.py
