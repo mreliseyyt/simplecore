@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pysimplecore",
-    version="0.0.5",
+    version="0.0.7",
     author="mreliseyyt",
     author_email="mail@mreliseyyt.ru",
     description="Легковесная утилитарная библиотека для Python",

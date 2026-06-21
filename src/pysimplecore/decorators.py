@@ -32,14 +32,15 @@ def retry(max_attempts: int = 3, delay: int = 1, exceptions: tuple = (Exception,
                         raise
                     print(f"🔄 Попытка {attempt + 1} не удалась: {e}")
                     time.sleep(delay)
-            return None
+            return None   # никогда не достигается, но оставлено для ясности
 
         return wrapper
 
     return decorator
 
 
-def cached(ttl: int = 60):
+def cache_result(ttl: int = 60):
+    """Декоратор кеширования результата функции с временем жизни ttl (секунд)."""
     cache = Cache(ttl)
 
     def decorator(func: Callable) -> Callable:
@@ -81,3 +82,7 @@ def log_call(logger=None):
         return wrapper
 
     return decorator
+
+
+# 👇 Добавляем псевдоним для обратной совместимости
+cached = cache_result
