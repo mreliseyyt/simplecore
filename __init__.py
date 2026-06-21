@@ -1,11 +1,11 @@
 """
 pysimplecore - Легковесная утилитарная библиотека для Python
-Версия: 0.0.1
+Версия: 0.0.2
 Автор: mreliseyyt
 Лицензия: MIT
 """
 
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 __author__ = "mreliseyyt"
 __license__ = "MIT"
 __description__ = "Легковесная утилитарная библиотека для Python"
