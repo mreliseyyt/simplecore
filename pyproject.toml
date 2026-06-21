@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pysimplecore"
-version = "0.0.3"
+version = "0.0.4"
 description = "Легковесная утилитарная библиотека для Python"
 readme = "README.md"
 authors = [
@@ -24,4 +24,4 @@ python_files = ["test_*.py", "*_test.py"]
 addopts = "--ignore=dist --ignore=build"
 
 [project.urls]
-Homepage = "https://github.com/mreliseyyt/simplecore"
+Homepage = "https://github.com/mreliseyyt/pysimplecore"
