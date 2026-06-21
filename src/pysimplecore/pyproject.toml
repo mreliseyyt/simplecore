@@ -19,11 +19,9 @@ classifiers = [
 requires-python = ">=3.6"
 dependencies = []
 
-[tool.setuptools]
-package-dir = {"" = "src"}
-
-[tool.setuptools.packages.find]
-where = ["src"]
+[tool.pytest.ini_options]
+python_files = ["test_*.py", "*_test.py"]
+addopts = "--ignore=dist --ignore=build"
 
 [project.urls]
 Homepage = "https://github.com/mreliseyyt/pysimplecore"
